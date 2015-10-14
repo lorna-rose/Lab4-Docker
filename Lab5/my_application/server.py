@@ -5,15 +5,15 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
     
-@app.route('/')
+@app.route("/")
 def index():
     return "Index Page"
     
-@app.route('/user/paul')
+@app.route("/user/paul")
 def index():
     return "User Paul"
 
-@app.route('/post/80')
+@app.route("/post/80")
 def index():
     return "Post 80"
 
