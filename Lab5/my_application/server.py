@@ -10,11 +10,11 @@ def index():
     return "Index Page"
     
 @app.route("/user/paul")
-def index():
+def user():
     return "User Paul"
 
 @app.route("/post/80")
-def index():
+def post():
     return "Post 80"
 
 if __name__ == "__main__":
