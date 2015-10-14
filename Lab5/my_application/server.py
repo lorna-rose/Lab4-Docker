@@ -7,15 +7,15 @@ def hello():
     
 @app.route('/')
 def index():
-    return 'Index Page'
+    return "Index Page"
     
 @app.route('/user/paul')
 def index():
-    return 'User Paul'
+    return "User Paul"
 
 @app.route('/post/80')
 def index():
-    return 'Post 80'
+    return "Post 80"
 
 if __name__ == "__main__":
     #app.run(host="0.0.0.0")
